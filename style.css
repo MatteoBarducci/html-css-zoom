@@ -1,0 +1,58 @@
+/*------------
+    RESET
+-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------
+    GENERAL
+-------------*/
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+/*------------
+    HEADER
+-------------*/
+header{
+    color: white;
+    text-align: end;
+    font-size: small;
+}
+
+.grey-background{
+    background-color: #4A4A4A;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px 0 50px;
+}
+/*------------
+    MAIN
+-------------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    overflow-y: auto;
+    margin: auto;
+    padding-right: 50px;
+}
+
+main .container > *{
+    padding: 5px 5px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 8px;
+    left: 5px;
+    z-index: 999;
+    color: white;
+    padding: 4px;
+    background-color: #66717A99;
+}
